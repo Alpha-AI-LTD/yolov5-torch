@@ -46,7 +46,7 @@ python detect.py --weights  runs/train/exp21/weights/last.pt --source data/railw
 
 The outputs from train and detection are stored in the runs folder
 
-# Comverting Torch models to Onnx
+# Converting Torch models to Onnx
 python models/export.py --weights runs/train/exp18/weights/last.pt --img 640 --batch 1
 
 # Flask API
